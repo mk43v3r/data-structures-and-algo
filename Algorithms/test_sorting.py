@@ -3,7 +3,7 @@ import itertools
 import random
 from sorting import *
 
-SEED = 1234
+SEED = 12345
 
 def checkAscending(target_list):
     return all(target_list[i] <= target_list[i+1]
@@ -22,7 +22,7 @@ class TestSorting(unittest.TestCase):
         # Test sorting on empty list
         target = []
         func([])
-        self.assertEquals(target, [])
+        self.assertEqual(target, [])
         
         # Test sorting from list size 1 to 100
         # 5 times each for each size

@@ -1,6 +1,7 @@
 # Data structures and algorithms
 
 ## Data Structures
+
 - Linked List
 - Stack
 - Queue
@@ -10,13 +11,16 @@
 - Huffman Coding Tree
 - Heap
 - Graph
+- Hashmap
 
 ## Algorithms
+
+- Binary Search
 - BFS
 - DFS
 - Dynamic Programming
 - Dijkstra
-- A*
+- A\*
 - Kruskal
 - Prim
 - Ford Fulkerson

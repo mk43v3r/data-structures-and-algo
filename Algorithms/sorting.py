@@ -1,4 +1,3 @@
-#
 # NOTE: There may be easier methods to do some stuff(e.g. separating a list into 
 # left and right sublist), but I will do the way as taught in theory, for
 # learning purposes. But in practice, I recommend using much easier methods to 
