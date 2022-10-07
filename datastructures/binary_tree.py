@@ -9,9 +9,6 @@ class BinaryTree:
         self.root = None
 
 class BinarySearchTree(BinaryTree):
-    def __init__(self):
-        super().__init__()
-
     def insert(self, value):
         newnode = Node(value)
 

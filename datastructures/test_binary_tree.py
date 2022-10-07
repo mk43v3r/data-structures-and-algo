@@ -3,9 +3,10 @@ import random
 import unittest
 
 SEED = 12345
+random.seed(SEED)
+
 class TestBinarySearchTree(unittest.TestCase):
     def setUp(self):
-        random.seed(SEED)
         self.tree = BinarySearchTree()
     
     # Test that the left child node is lesser or equal to the parent

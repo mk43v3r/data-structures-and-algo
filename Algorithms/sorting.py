@@ -4,6 +4,11 @@
 # avoid mental overhead.
 # 
 # Sorting will be done in ascending order
+import sys
+
+sys.path.append("../datastructures")
+
+from heap import MinHeap
 
 def bubble_sort(target_list):
     n = len(target_list)
@@ -23,3 +28,13 @@ def insertion_sort(target_list):
             temp = target_list[i-j]
             target_list[i-j] = target_list[i-j-1]
             target_list[i-j-1] = temp
+
+def heap_sort(target_list):
+    n = len(target_list)
+    heap = MinHeap()
+
+    for i in range(0, n):
+        heap.insert(i)
+
+    for i in range(0, n):
+        target_list[i] = heap.deleteMin()

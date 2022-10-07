@@ -38,6 +38,9 @@ class TestSorting(unittest.TestCase):
     def test_insertion(self):
         self.template(insertion_sort)
 
+    def test_heap(self):
+        self.template(heap_sort)
+
     
 if __name__ == "__main__":
     unittest.main()
