@@ -31,7 +31,7 @@ class TestSorting(unittest.TestCase):
                 target = random.choices(range(1,1000), k=n)
                 func(target)
                 self.assertTrue(checkAscending(target))
-    
+        
     def test_bubble(self):
         self.template(bubble_sort)
 
@@ -40,6 +40,12 @@ class TestSorting(unittest.TestCase):
 
     def test_heap(self):
         self.template(heap_sort)
+
+    def test_merge(self):
+        self.template(merge_sort)
+
+    def test_quick(self):
+        self.template(quick_sort)
 
     
 if __name__ == "__main__":
